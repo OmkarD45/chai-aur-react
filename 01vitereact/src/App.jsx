@@ -1,6 +1,12 @@
 import Chai from "./chai";
-function App() {
-  return <Chai />;
-}
 
-export default App;
+function App() {
+  const username="Omkar Deshmukh"
+  return (
+    <>
+      <Chai />
+      <p>Paragraph {username}</p>
+    </>
+  )
+}
+export default App; 
